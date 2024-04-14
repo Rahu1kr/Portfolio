@@ -7,7 +7,7 @@ const Hero = () => {
   const {mode, colors} = useTheme()
 
   return (
-    <div className={`flex  w-full h-[100%] bg-[${colors.sky}]`}>
+    <div className={`flex  w-full h-[100%] ${mode === 'dark' ? "bg-[#274472]" : "bg-[#bfd7ed]" }`}>
         <Left />
         <Right />
     </div>

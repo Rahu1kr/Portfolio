@@ -20,7 +20,7 @@ const ThemeProvider = ({ children }) => {
       normaltext: darkMode ? '#BFC3D0' : '#2E3337',
       button: darkMode ? '#122035' : '#60a3da',
       hover: darkMode ? '#546A8E' : '#BFD7ED',
-      border: darkMode ? '#405a85' : '#122035',
+      border: darkMode ? '#405a85' : '#566883',
     },
     toggleTheme,
   };

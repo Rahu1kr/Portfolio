@@ -6,7 +6,7 @@ import Projects from './right/Projects'
 
 const Right = () => {
   return (
-    <div className='pt-[136px] pl-[51vw] w-full h-full pr-52'>
+    <div className='pt-[90px] pl-[51vw] w-full h-full pr-52' id='main'>
       <About />
       <Skills/>
       <Experience />

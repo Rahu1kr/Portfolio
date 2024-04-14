@@ -7,9 +7,10 @@ const Experience = () => {
   const imgStyle = 'w-[22px] mr-2 inline-block'
 
   return (
+    <div id='exper' className=' pt-14'>
     <div>
       <div className=' h-[500px]'>
-          <h1 className={`mt-28 text-2xl text-[${colors.maintext}]`}>Experience</h1>
+          <h1 className={` text-2xl text-[${colors.maintext}]`}>Experience</h1>
           <div className=' flex justify-between'>
             <div>
               <h2 className={`text-xl text-[${colors.maintext}] mt-8`}>Web Developer</h2>
@@ -29,6 +30,7 @@ const Experience = () => {
             <button className={buttonStyle}><img src="ex.png" alt="express" className={imgStyle} />Express Js</button>
             <button className={buttonStyle}><img src="db.png" alt="MongoDb" className={imgStyle} />MongoDB</button>
       </div>
+    </div>
     </div>
   )
 }

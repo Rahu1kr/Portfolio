@@ -32,9 +32,9 @@
     font-style: normal;
 }
 
-body{
-  background-color: var(--darkSky)
-}
+/* body{ */
+  /* background-color: var(--darkSky)
+} */
 
 
   .theme-switch {

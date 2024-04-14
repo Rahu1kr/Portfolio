@@ -7,14 +7,15 @@ const Projects = () => {
   const imgStyle = 'w-[22px] mr-2 inline-block'
 
   return (
-    <div>
-      <h1 className={`mt-28 text-2xl text-[${colors.maintext}]`}>Projects</h1>
+    <div id='pro' className='pt-14'>
+    <div >
+      <h1 className={` text-2xl text-[${colors.maintext}]`}>Projects</h1>
       <div className={` text-[19px] text-[${colors.normaltext}] mt-8`}>
         <div className=' w-[500px] h-[280px]'>
-          <img src="pro1.png" alt="project" className={`border-4 border-[${colors.border}] rounded-xl`} />
+          <img src="pro1.png" alt="project" className={`border-4 ${mode === 'dark' ? "border-[#405a85]" : "border-[#566883]" } rounded-xl`} />
         </div>
         <div>
-          <h1 className=' my-4'>JobSeeker <i className={`fa-solid fa-up-right-from-square text-[${colors.maintext}]`}></i></h1>
+          <a target='_blank' href="https://github.com/Rahu1kr/JobSeeker"><h1 className=' my-4'>JobSeeker <i className={`fa-solid fa-up-right-from-square text-[${colors.maintext}]`}></i></h1></a>
           <p className='text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum obcaecati qui sed aperiam amet veniam? Officiis numquam mollitia nihil quos. Dicta repudiandae autem, sint ipsa exercitationem dolore voluptate modi!</p>
         </div>
         <div>
@@ -34,7 +35,7 @@ const Projects = () => {
           <img src="pro2.png" alt="project" className={`border-4 border-[${colors.border}] rounded-xl`} />
         </div>
         <div>
-          <h1 className=' my-4'>Blog <i className={`fa-solid fa-up-right-from-square text-[${colors.maintext}]`}></i></h1>
+          <a target='_blank' href="https://github.com/Rahu1kr/Blog"><h1 className=' my-4'>Blog <i className={`fa-solid fa-up-right-from-square text-[${colors.maintext}]`}></i></h1></a>
           <p className='text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum obcaecati qui sed aperiam amet veniam? Officiis numquam mollitia nihil quos. Dicta repudiandae autem, sint ipsa exercitationem dolore voluptate modi!</p>
         </div>
         <div>
@@ -52,7 +53,7 @@ const Projects = () => {
           <img src="pro3.png" alt="project" className={`border-4 border-[${colors.border}] rounded-xl`} />
         </div>
         <div>
-          <h1 className=' my-4'>CSS Generator <i className={`fa-solid fa-up-right-from-square text-[${colors.maintext}]`}></i></h1>
+          <a target='_blank' href="https://github.com/Rahu1kr/CSS-Generator"><h1 className=' my-4'>CSS Generator <i className={`fa-solid fa-up-right-from-square text-[${colors.maintext}]`}></i></h1></a>
           <p className='text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum earum obcaecati qui sed aperiam amet veniam? Officiis numquam mollitia nihil quos. Dicta repudiandae autem, sint ipsa exercitationem dolore voluptate modi!</p>
         </div>
         <div>
@@ -63,6 +64,7 @@ const Projects = () => {
         <button className={buttonStyle}><img src="tailwind.png" alt="tailwindCSS" className={imgStyle} />Tailwind CSS</button>
         </div>
       </div>
+    </div>
     </div>
   )
 }

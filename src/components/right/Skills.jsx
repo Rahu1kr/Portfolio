@@ -7,8 +7,9 @@ const Skills = () => {
   const imgStyle = 'w-[22px] mr-2 inline-block'
 
   return (
+    <div id='skills' className='pt-14'>
     <div>
-      <h1 className={`mt-28 text-2xl text-[${colors.maintext}]`}>Skills</h1>
+      <h1 className={` text-2xl text-[${colors.maintext}]`}>Skills</h1>
       <div className={` text-[19px] text-[${colors.normaltext}] mt-8`}>
         {/* <span className=' pr-4'>C++,</span>
         <span className=' pr-4'>HTML,</span>
@@ -31,6 +32,7 @@ const Skills = () => {
         <button className={buttonStyle}><img src="db.png" alt="MongoDb" className={imgStyle} />MongoDB</button>
         <button className={buttonStyle}><img src="database.png" alt="SQL" className={imgStyle} />SQL</button>
       </div>
+    </div>
     </div>
   )
 }
