@@ -20,7 +20,7 @@ const Experience = () => {
               <h2 className={`text-base font-light text-[${colors.maintext}] `}>Feb 2024 - Mar 2024</h2>
             </div>
           </div>
-            <p className={`text-lg font-light text-[${colors.normaltext}] mb-8`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quia a tempora fugiat aliquam qui quas sapiente! Placeat debitis assumenda atque delectus fugiat itaque, minus nemo laboriosam molestias qui ducimus voluptas optio in, minima, autem sunt error necessitatibus eveniet perferendis!</p>
+            <p className={`text-lg font-light text-[${colors.normaltext}] mb-8`}>Developed proficiency in web technologies, including ReactJS, JavaScript, Redux, NodeJS, and MongoDB. Contributed to the creation of dynamic and interactive web applications, enhancing user experience. Collaborated with a team of developers to implement features and optimize web application performance.</p>
             <button className={buttonStyle}><img src="html.png" alt="html" className={imgStyle} />HTML</button>
             <button className={buttonStyle}><img src="css.png" alt="css" className={imgStyle} />CSS</button>
             <button className={buttonStyle}><img src="js.png" alt="js" className={imgStyle} />JavaScript</button>
