@@ -18,11 +18,11 @@ const Left = () => {
         </a>
       </div>
       <div className={`flex gap-5 text-2xl text-[${colors.normaltext}]`}>
-        <a target='_blank' href="https://github.com/Rahu1kr"><i className="fa-brands fa-github"></i></a>
-        <a target='_blank' href="https://twitter.com/KumarRahul58739"><i className="fa-brands fa-x-twitter"></i></a>
-        <a target='_blank' href="https://www.linkedin.com/in/rahul-kumar-pu-130136203/"><i className="fa-brands fa-linkedin"></i></a>
-        <a href="mailto:krahulr12345@gmail.com"><i className="fa-solid fa-envelope"></i></a>
-        <i className="fa-solid fa-phone"></i>
+        <a target='_blank' title='Rahu1kr' href="https://github.com/Rahu1kr"><i className="fa-brands fa-github"></i></a>
+        <a target='_blank' title='Rahul Kumar' href="https://twitter.com/KumarRahul58739"><i className="fa-brands fa-x-twitter"></i></a>
+        <a target='_blank' title='Rahul Kumar' href="https://www.linkedin.com/in/rahul-kumar-pu-130136203/"><i className="fa-brands fa-linkedin"></i></a>
+        <a title='krahulr12345@gmail.com' href="mailto:krahulr12345@gmail.com"><i className="fa-solid fa-envelope"></i></a>
+        <a title='9576830189' href='tel:9576830189'><i className="fa-solid fa-phone"></i></a>
       </div>
     </div>
   );
